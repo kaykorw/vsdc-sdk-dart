@@ -2,9 +2,11 @@
 
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 [![License: MIT][license_badge]][license_link]
+[![build status][ci_status]]
 
 A Very Good Project created by Very Good CLI.
 
+[ci_status]: https://github.com/kaykorw/vsdc-sdk-dart/actions/workflows/main.yaml/badge.svg
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license_link]: https://opensource.org/licenses/MIT
 [very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
