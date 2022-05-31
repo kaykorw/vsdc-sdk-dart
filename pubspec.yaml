@@ -1,10 +1,10 @@
 name: vsdc
-description: A Very Good Project created by Very Good CLI.
+description: A Dart library to interface the Rwanda Revenue EBM API for Virtual Sales Data Controller.
 version: 1.0.0+1
 publish_to: none
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: '>=2.17.0 <3.0.0'
 
 dev_dependencies:
   coverage: ^1.1.0
