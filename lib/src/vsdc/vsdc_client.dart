@@ -7,17 +7,17 @@ import 'package:vsdc/src/core/helpers/request_options.dart';
 
 part 'options.dart';
 
-/// Lowest API client that sends requests to the server
+/// Lowest layer API client that sends requests to the server
 ///
 /// This class should not be available to the public library. There should be
-/// a higher class that will be availble to the library and will be
+/// a higher class that will be availble to the public library and will be
 /// communicating with a [VsdcClient] object.
 class VsdcClient {
   /// Initializes a new [VsdcClient] object.
   VsdcClient({required this.options, http.Client? client})
       : _client = client ?? http.Client();
 
-  /// Required options.
+  /// Required parameters.
   final VsdcOptions options;
 
   final http.Client _client;

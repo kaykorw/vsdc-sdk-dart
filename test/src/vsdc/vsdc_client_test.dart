@@ -33,7 +33,7 @@ void main() {
     lastRequestTime: DateTime.now(),
     tin: 'TIN NUMBER',
   );
-  group('[VsdcClient]', () {
+  group('[$VsdcClient]', () {
     setUpAll(() {
       client = MockClient();
       subject = VsdcClient(options: options, client: client);
@@ -70,7 +70,7 @@ void main() {
       );
     });
 
-    group('get', () {
+    group('get()::', () {
       test(
         'should make a `GET` request to the hostname and return the data',
         () {
@@ -171,7 +171,7 @@ void main() {
       );
     });
 
-    group('post', () {
+    group('post()::', () {
       test(
         'should make a `POST` request to the hostname and return the data',
         () {
@@ -275,7 +275,7 @@ void main() {
       );
     });
 
-    group('put', () {
+    group('put()::', () {
       test(
         'should make a `GET` request to the hostname and return the data',
         () {
