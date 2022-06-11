@@ -3,5 +3,5 @@
 /// {@endtemplate}
 class Vsdc {
   /// {@macro vsdc}
-  const Vsdc();
+  Vsdc();
 }
